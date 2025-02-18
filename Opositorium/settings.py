@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-e(bna0k@2#bc4i6#%dow=#m2(u09l_d=equ961nui@^z=$d9oz"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = "False"
+DEBUG = os.environ.get('DEBUG')
 
 CSRF_TRUSTED_ORIGINS = ["https://opositorium.vercel.app"]
 
