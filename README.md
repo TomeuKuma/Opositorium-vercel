@@ -1,1 +1,4 @@
-Este es un proyecto en Django 5.0.1 y Python 3.13 que levanta un aplicativo web que permite al usuario hacer examenes tipo test para opositores españoles.
+Este es un proyecto en Django 5.0.1 y Python 3.13 basado en una web que proporciona los recursos que necesitan las personas para llegar a ser funcionarios públicos en Islas Baleares: 
+- Tests 
+- Anuncios de empleo público BOIB
+- Seguimiento de procesos selectivos

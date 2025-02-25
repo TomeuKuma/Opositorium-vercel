@@ -27,6 +27,7 @@ urlpatterns = [
     path('contacto/', contacto, name='contacto'),  # Página de contacto
     path('usuarios/', include('usuarios.urls')),  # Incluye las rutas de autenticación
     path('boib_scraper/', include('boib_scraper.urls')), # Página inicial de boib_scraper
+    path('procesador_IA/', include('procesador_IA.urls')), # Página inicial de boib_scraper
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

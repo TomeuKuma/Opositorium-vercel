@@ -43,9 +43,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "examinador",
     "usuarios",
+    "examinador",
     "boib_scraper",
+    "procesador_IA",
 ]
 
 MIDDLEWARE = [
